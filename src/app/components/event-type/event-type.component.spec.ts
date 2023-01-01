@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomeComponent } from './home.component';
+import { EventTypeComponent } from './event-type.component';
 
-describe('HomeComponent', () => {
-  let component: HomeComponent;
-  let fixture: ComponentFixture<HomeComponent>;
+describe('EventTypeComponent', () => {
+  let component: EventTypeComponent;
+  let fixture: ComponentFixture<EventTypeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HomeComponent ]
+      declarations: [ EventTypeComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HomeComponent);
+    fixture = TestBed.createComponent(EventTypeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
