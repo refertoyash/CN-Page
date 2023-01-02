@@ -1,3 +1,8 @@
-<div class="container">
-  
+<div class="container" *ngFor="let item of curr_tags; let indexOfelement=index;">
+  <div class="d-flex flex-wrap">
+    <h1 class="items" (click) = "ItemClicked(indexOfelement)">{{item}}</h1>
+  </div>
 </div>
+
+<button *ngIf="alltags.length>10;else elseBlock" (click) = "ShowMore()">See More</button>
+<ng-template #elseBlock></ng-template>

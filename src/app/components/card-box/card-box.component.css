@@ -1,6 +1,5 @@
 .container{
-  width: 100%;
+  width: 900%;
   height: 100%;
   border: 2px solid red;
-  display:  flex;
 }
